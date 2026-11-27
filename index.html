@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sanjay S | AWS & DevOps Fresher Portfolio</title>
+<style>
+:root{--bg:#f7f8fb;--card:#fff;--ink:#101828;--mut:#5b6475;--line:#e3e6ee;--acc:#e07b00;--acc2:#fff3e0;--dark:#101828;--darkink:#fff;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0d1220;--card:#161c2e;--ink:#eef1f8;--mut:#9aa3b8;--line:#262e45;--acc:#ffa63d;--acc2:#2a2214;--dark:#0a0e19;--darkink:#fff;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0d1220;--card:#161c2e;--ink:#eef1f8;--mut:#9aa3b8;--line:#262e45;--acc:#ffa63d;--acc2:#2a2214;--dark:#0a0e19;--darkink:#fff;color-scheme:dark}
+html{scroll-behavior:smooth;scroll-padding-top:calc(64px + env(safe-area-inset-top,0px))}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.6}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--card);z-index:10}
+a{color:inherit;text-decoration:none}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:9;background:var(--card);border-bottom:1px solid var(--line)}
+.nav{max-width:1040px;margin:auto;display:flex;align-items:center;justify-content:space-between;padding:12px 20px;gap:12px}
+.logo{font-weight:800;font-size:18px}.logo b{color:var(--acc)}
+.links{display:flex;gap:18px;font-size:14px;overflow-x:auto;white-space:nowrap}
+.links a{color:var(--mut)}.links a:hover{color:var(--acc)}
+section{max-width:1040px;margin:auto;padding:56px 20px}
+h2{font-size:28px;margin:0 0 6px}
+.sub{color:var(--mut);margin:0 0 28px}
+.tag{display:inline-block;background:var(--acc2);color:var(--acc);font-weight:600;font-size:13px;padding:4px 12px;border-radius:99px}
+.hero{display:grid;grid-template-columns:1.4fr 1fr;gap:32px;align-items:center;padding-top:48px}
+.hero h1{font-size:clamp(32px,6vw,52px);line-height:1.1;margin:14px 0}
+.hero h1 span{color:var(--acc)}
+.hero p{color:var(--mut);font-size:17px;max-width:520px}
+.btns{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}
+.btn{padding:11px 22px;border-radius:10px;font-weight:600;font-size:15px;border:1px solid var(--acc)}
+.btn.p{background:var(--acc);color:#101828}.btn.s{color:var(--acc)}
+.avatar{aspect-ratio:1;max-width:280px;margin:auto;width:100%;border-radius:28px;background:var(--dark);color:var(--acc);display:grid;place-items:center;font-size:84px;font-weight:800;box-shadow:0 12px 32px rgba(0,0,0,.18)}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:22px}
+.stat,.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px}
+.stat b{display:block;font-size:26px;color:var(--acc)}.stat span{color:var(--mut);font-size:13px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.card h3{margin:0 0 10px;font-size:17px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:4px 11px;font-size:13.5px}
+.flow{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:16px 0;font-size:13.5px;font-weight:600}
+.flow span{background:var(--dark);color:var(--darkink);padding:7px 12px;border-radius:9px}
+.flow i{color:var(--acc);font-style:normal}
+ul{padding-left:20px;margin:10px 0}li{margin:6px 0;color:var(--mut)}
+.proj{margin-bottom:18px}
+.tl{border-left:2px solid var(--acc);padding-left:18px;margin-left:6px}
+.tl h3{margin:0}.tl p{margin:2px 0;color:var(--mut)}
+.contact a.row{display:flex;gap:12px;padding:12px 0;border-bottom:1px solid var(--line)}
+.contact a.row:last-child{border:0}.contact small{color:var(--mut);display:block}
+footer{text-align:center;color:var(--mut);font-size:13px;padding:28px 20px}
+@media(max-width:720px){.hero{grid-template-columns:1fr}.avatar{max-width:180px;font-size:56px;order:-1}.logo{font-size:16px}}
+</style>
+</head>
+<body>
+<header><div class="nav"><a class="logo" href="#home">Sanjay<b>.dev</b></a>
+<nav class="links"><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#education">Education</a><a href="#contact">Contact</a></nav></div></header>
+
+<section id="home" class="hero">
+<div>
+<span class="tag">AWS &amp; DevOps Fresher</span>
+<h1>Hi, I’m <span>Sanjay S</span></h1>
+<p>B.Sc Computer Science graduate trained in AWS and DevOps. I build automated CI/CD pipelines with GitHub, Jenkins, Docker and AWS EC2, and I’m looking for my first Cloud / DevOps role.</p>
+<div class="btns"><a class="btn p" href="#projects">View Projects</a><a class="btn s" href="#contact">Get in Touch</a></div>
+</div>
+<div class="avatar">SS</div>
+</section>
+
+<section id="about">
+<h2>About Me</h2><p class="sub">Fresher with hands-on cloud and automation practice</p>
+<div class="card"><p style="margin:0">I completed my B.Sc in Computer Science (Annamalai University) and trained in Advanced AWS with DevOps at FITA Academy. For my capstone, I built and deployed the Student Helpdesk website through a fully automated pipeline on AWS, with security, monitoring and backups built in. I enjoy troubleshooting real problems and keep learning every day. Outside tech, I love playing cricket.</p></div>
+<div class="stats"><div class="stat"><b>FITA</b><span>AWS &amp; DevOps trained</span></div><div class="stat"><b>3-Stage</b><span>Jenkins CI/CD pipeline</span></div><div class="stat"><b>2</b><span>Languages: Tamil, English</span></div></div>
+</section>
+
+<section id="skills">
+<h2>Technical Skills</h2><p class="sub">Cloud services and automation tools I work with</p>
+<div class="grid">
+<div class="card"><h3>☁️ Cloud (AWS)</h3><div class="chips"><span class="chip">EC2</span><span class="chip">IAM</span><span class="chip">S3</span><span class="chip">VPC</span><span class="chip">Security Groups</span><span class="chip">CloudWatch</span><span class="chip">SNS</span><span class="chip">CloudTrail</span></div></div>
+<div class="card"><h3>⚙️ DevOps Tools</h3><div class="chips"><span class="chip">Git</span><span class="chip">GitHub</span><span class="chip">Jenkins</span><span class="chip">Docker</span><span class="chip">Ansible</span></div></div>
+<div class="card"><h3>🌐 Web Server</h3><div class="chips"><span class="chip">Nginx</span></div></div>
+<div class="card"><h3>🐧 Operating System</h3><div class="chips"><span class="chip">Linux (Ubuntu)</span><span class="chip">Basic commands</span><span class="chip">SSH</span><span class="chip">Service management</span></div></div>
+<div class="card"><h3>💻 Other</h3><div class="chips"><span class="chip">MS Office basics</span><span class="chip">Editing</span></div></div>
+</div>
+</section>
+
+<section id="projects">
+<h2>Projects</h2><p class="sub">Hands-on work showing automation, security and monitoring</p>
+<div class="card proj">
+<span class="tag">Flagship Project</span>
+<h3 style="font-size:21px;margin:12px 0 4px">Student Helpdesk: Automated Deployment on AWS</h3>
+<p style="color:var(--mut);margin:0">A website that goes live automatically on every code push, with no manual file copying.</p>
+<div class="flow"><span>Git push</span><i>→</i><span>GitHub</span><i>→</i><span>Jenkins</span><i>→</i><span>Docker</span><i>→</i><span>EC2 + Nginx</span></div>
+<ul>
+<li>Packaged the site in a Docker (Nginx) container and ran it on an Ubuntu EC2 instance.</li>
+<li>Created a 3-stage Jenkins declarative pipeline (Checkout, Build Image, Deploy) with GitHub Poll SCM for auto-deploy.</li>
+<li>Secured the setup: IAM user with MFA, SSH limited to my IP, Jenkins port 8080 private via SSH tunnel, no keys or tokens in GitHub.</li>
+<li>Used Ansible to automate Docker installation on the server.</li>
+<li>Set up a CloudWatch CPU alarm (above 70% for 5 minutes) with SNS email alerts, a private encrypted S3 bucket for backups, and CloudTrail for auditing.</li>
+<li>Troubleshot real issues: SSH permission errors, Docker permission denied in Jenkins, and port conflicts.</li>
+</ul>
+<div class="chips"><span class="chip">GitHub</span><span class="chip">Jenkins</span><span class="chip">Docker</span><span class="chip">Nginx</span><span class="chip">Ansible</span><span class="chip">EC2</span><span class="chip">CloudWatch</span><span class="chip">SNS</span><span class="chip">S3</span></div>
+</div>
+<div class="card proj">
+<span class="tag">Academic Project</span>
+<h3 style="font-size:19px;margin:12px 0 4px">AI Personal Finance Tracking</h3>
+<p style="color:var(--mut);margin:0">An AI-based personal finance tracking project developed as part of my academic work.</p>
+</div>
+</section>
+
+<section id="education">
+<h2>Education &amp; Training</h2><p class="sub">Academic background and professional training</p>
+<div class="grid">
+<div class="card"><h3>Education</h3><div class="tl"><h3>B.Sc Computer Science</h3><p>Annamalai University</p><p>E.S Arts and Science College (Co-Ed), Villupuram</p><p>2023 – 2026 · 63.8%</p></div></div>
+<div class="card"><h3>Technical Training</h3><div class="tl"><h3>Advanced AWS with DevOps</h3><p>FITA Academy</p><p>AWS cloud services, Linux, CI/CD tools, containers and automation, with a live capstone project.</p></div></div>
+<div class="card"><h3>Languages &amp; Interests</h3><div class="chips"><span class="chip">Tamil</span><span class="chip">English</span><span class="chip">🏏 Cricket</span></div></div>
+</div>
+</section>
+
+<section id="contact">
+<h2>Get In Touch</h2><p class="sub">Looking for an entry-level Cloud / DevOps Engineer role. Let’s connect!</p>
+<div class="card contact">
+<a class="row" href="tel:8807589057"><span>📞</span><div><small>Phone</small>8807589057</div></a>
+<a class="row" href="mailto:sanjaysakthivel959@gmail.com"><span>✉️</span><div><small>Email</small>sanjaysakthivel959@gmail.com</div></a>
+<div class="row"><span>📍</span><div><small>Location</small>Tamil Nadu, India</div></div>
+</div>
+<div class="btns"><a class="btn p" href="mailto:sanjaysakthivel959@gmail.com?subject=Opportunity%20for%20Sanjay%20S">Send me an email</a></div>
+</section>
+
+<footer>© 2026 Sanjay S · AWS &amp; DevOps</footer>
+</body>
+</html>
